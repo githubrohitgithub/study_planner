@@ -101,8 +101,8 @@ lib/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/study_planer.git
-   cd study_planer
+   git clone https://github.com/githubrohitgithub/study_planner.git
+   cd study_planner
    ```
 
 2. **Install dependencies**
