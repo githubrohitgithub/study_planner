@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="book1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4F46E5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="book2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0891B2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="book3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="200" fill="#F8FAFC"/>
+  
+  <!-- Book 1 -->
+  <rect x="50" y="120" width="60" height="8" fill="url(#book1)" rx="2"/>
+  <rect x="50" y="80" width="60" height="40" fill="url(#book1)" rx="4"/>
+  <rect x="55" y="85" width="50" height="2" fill="white" opacity="0.3"/>
+  <rect x="55" y="90" width="40" height="1.5" fill="white" opacity="0.3"/>
+  <rect x="55" y="95" width="45" height="1.5" fill="white" opacity="0.3"/>
+  
+  <!-- Book 2 -->
+  <rect x="120" y="115" width="60" height="8" fill="url(#book2)" rx="2"/>
+  <rect x="120" y="70" width="60" height="45" fill="url(#book2)" rx="4"/>
+  <rect x="125" y="75" width="50" height="2" fill="white" opacity="0.3"/>
+  <rect x="125" y="80" width="40" height="1.5" fill="white" opacity="0.3"/>
+  <rect x="125" y="85" width="45" height="1.5" fill="white" opacity="0.3"/>
+  
+  <!-- Book 3 -->
+  <rect x="190" y="110" width="60" height="8" fill="url(#book3)" rx="2"/>
+  <rect x="190" y="60" width="60" height="50" fill="url(#book3)" rx="4"/>
+  <rect x="195" y="65" width="50" height="2" fill="white" opacity="0.3"/>
+  <rect x="195" y="70" width="40" height="1.5" fill="white" opacity="0.3"/>
+  <rect x="195" y="75" width="45" height="1.5" fill="white" opacity="0.3"/>
+  
+  <!-- Floating elements -->
+  <circle cx="80" cy="50" r="3" fill="#F59E0B" opacity="0.7"/>
+  <circle cx="220" cy="40" r="2" fill="#EF4444" opacity="0.7"/>
+  <circle cx="270" cy="60" r="2.5" fill="#8B5CF6" opacity="0.7"/>
+  
+  <!-- Light rays -->
+  <path d="M40 30 L50 20 M45 35 L55 25 M35 40 L45 30" stroke="#FDE047" stroke-width="2" opacity="0.5"/>
+</svg> 
